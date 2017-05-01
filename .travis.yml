@@ -1,6 +1,6 @@
 language: erlang
 notifications:
-  email: ward@tty.nl
+  email: creemej@gmail.com
 otp_release:
   - R16B
   - R15B01

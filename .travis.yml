@@ -2,10 +2,7 @@ language: erlang
 notifications:
   email: creemej@gmail.com
 otp_release:
-  - R16B
-  - R15B01
-  - R15B
-  - R14B04
+  - R19B03
 script: rebar compile && rebar skip_deps=true eunit && rebar skip_deps=true ct
 env:
   global:
